@@ -1,4 +1,4 @@
-依赖于https://github.com/jas502n/FinalShellDecodePass，支持批量获取FinalShell密码
+依赖于https://github.com/jas502n/FinalShellDecodePass ，支持批量获取FinalShell密码
 
 使用格式：
 
@@ -10,6 +10,8 @@ optional arguments:
   -p PATH, --path PATH  the finalshell configuration's root path, example: E:\finalshell\conn
 ```
 
+-p 传入本地Finalshell配置文件夹即`conn`文件夹的绝对路径，也可dump远程主机配置到本地执行。 示例：
+
 示例：
 
-<img src="images/image-20220318203344910.png" alt="image-20220318203344910" style="zoom:33%;" />	
+<img src="images/image-20220318205416598.png" alt="image-20220318205416598" style="zoom:33%;" />	
