@@ -9,11 +9,11 @@ colorama.init(autoreset=True)
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description="decode finalshell's password")
-    parser.add_argument("-p", "--path", help="the finalshell's root path, example: E:\\finalshell")
+    parser.add_argument("-p", "--path", help="the finalshell configuration's root path, example: E:\\finalshell\\conn")
     option = parser.parse_args()
     path = option.path
-    if os.path.exists(os.path.join(path, "conn")):
-        for r, d, fs in os.walk(os.path.join(path, "conn")):
+    if os.path.exists(path):
+        for r, d, fs in os.walk(path):
             for f in fs:
                 if "connect_config.json" in f:
                     file = open(os.path.join(r, f), "rb")

@@ -7,7 +7,7 @@ usage: finalshell_decode.py [-h] [-p PATH]
 
 optional arguments:
   -h, --help            show this help message and exit
-  -p PATH, --path PATH  the finalshell's root path, example: E:\finalshell
+  -p PATH, --path PATH  the finalshell configuration's root path, example: E:\finalshell\conn
 ```
 
 示例：
